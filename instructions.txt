@@ -1,0 +1,4 @@
+Run the following commands on your terminal
+
+pip install -R requirements.txt
+python app.py

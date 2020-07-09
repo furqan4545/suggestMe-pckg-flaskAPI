@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Test app</title>
+
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="stylesheet" href="https://bootswatch.com/4/lumen/bootstrap.min.css">
+        
+    </head>
+
+    <body>
+        <h1 align="center" class="header" style="background-color:#4CAF50">Welcome to the testing app</h1>
+
+        <form action="" method="POST" id="mydatas" enctype=multipart/form-data>
+
+            <div class="columns">
+                <ul class="price">
+                  <li class="header">Bottles</li>
+                  <li class="grey">$ 4.10 / 1 bottle</li>
+                  <li>$ 40 / 11 bottles </li>
+                  <li>$ 950 / 264 bottles </li>
+                  <li class="grey"><label for="nbot">No of bottles you want to buy?</label> : <input type="number" name="nbot" id="nbot" value=""> </li>
+                </ul>
+              </div>
+
+
+            <div class="columns">
+                <ul class="price">
+                <li class="header" style="background-color:#4CAF50">Chocolates bar</li>
+                <li class="grey">$ 300 / 1 bar</li>
+                <li>$ 1450 / 5 bars</li>
+                <li>$ 2000 / 10 bars</li>
+                <li class="grey"><label for="choc">No of Chocolates you want to buy?</label> : <input type="number" name="choc" id="choc" value=""> </li>
+                </ul>
+            </div>
+            
+            <div class="columns">
+                <ul class="price">
+                <li class="header">Biscuits</li>
+                <li class="grey">$ 4.50 / 1 biscuit</li>
+                <li>$ 8.50 / 3 biscuit</li>
+                <li>$ 11.50 / 8 biscuit</li>
+
+                <li class="grey"><label for="bis">No of Biscuits you want to buy?</label> : <input type="number" name="bis" id="bis" value=""> </li>
+                </ul>
+            </div>
+  
+
+            <!-- <div id = "m_data"> 
+                <ul>
+                    <li id="bott">No of bottles: </li>
+                    <li id="packs">No of packs: </li>
+                    <li id="box">No of boxes: </li>
+                </ul>
+            </div> -->
+
+            <div class="columns" id = "m_data">
+                <ul class="price">
+                    <li class="header">Suggested Package</li>
+                    <li id="bott">No of bottles: </li>
+                    <li id="packs">No of packs: </li>
+                    <li id="box">No of boxes: </li>
+                </ul>
+            </div>
+            <div class="columns" id = "m_data">
+                <ul class="price">
+                    <li class="header" style="background-color:#4CAF50">Suggested Package</li>
+                    <li id="choclates">No of Chocolates: </li>
+                    <li id="cpacks">No of packs: </li>
+                    <li id="cbox">No of boxes: </li>
+                </ul>
+            </div>
+            <div class="columns" id = "m_data">
+                <ul class="price">
+                    <li class="header">Suggested Package</li>
+                    <li id="biscuits">No of Biscuits: </li>
+                    <li id="bt_packs">No of packs: </li>
+                    <li id="bt_box">No of boxes: </li>
+                </ul>
+            </div>
+
+            <div align = "center">
+                <button align = "center" type="submit" class="btn btn-primary btn-lg" id="submit">Calculate</button>
+
+            </div>
+            <!-- <input type="submit" value="Calculate" id="submit"> -->
+        
+        </form>
+
+        <script src="static/js/app.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+    </body>
+</html>
